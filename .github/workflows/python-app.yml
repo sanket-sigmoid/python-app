@@ -31,5 +31,6 @@ jobs:
         #run: |
          # pytest
       - name: Install selenium and behave
+        run: |
           pip install behave
           pip install selenium
