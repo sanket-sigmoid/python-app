@@ -6,5 +6,5 @@ def add(a, b) -> int:
     return math.floor(a + b)
 
 
-def to_sentence(a, b, c) -> str:
+def to_sentence(a) -> str:
     return os.getcwd()
