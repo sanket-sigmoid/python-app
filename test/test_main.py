@@ -13,4 +13,3 @@ def test_to_sentence():
     assert main.to_sentence('Apple trees') == 'Apple trees.'
     assert main.to_sentence('Apple trees.') == 'Apple trees.'
 
-
