@@ -43,3 +43,6 @@ jobs:
           mypy-flags: ''
           fail-on-isort: true
           
+      - name: Test with pytest
+        run: |
+          pytest
